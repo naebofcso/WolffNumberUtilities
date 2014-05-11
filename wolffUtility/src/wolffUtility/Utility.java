@@ -20,7 +20,7 @@ public class Utility
 		}
 	}
 
-	private static double[] fillArray(double[] inputArray) 
+	public static double[] fillArray(double[] inputArray) 
 	{
 		Scanner numInput = new Scanner(System.in);
 		for(int i = 0; i < inputArray.length; i++)
